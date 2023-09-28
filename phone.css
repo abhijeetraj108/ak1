@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1rem;
+}
+/* 
+body{
+    font-size: .6rem;
+} */
+
+
+#navbar{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 1rem; */
+    /* justify-content: center;
+    align-items: center; */
+
+}
+
+
+#navbar ul li a{
+    /* font-size: 0.4rem; */
+    /* text-decoration: none;
+    margin: 13px; */
+/* list-style: none; */
+font-size: 1rem;
+}
+
+

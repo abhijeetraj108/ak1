@@ -1,0 +1,281 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar::before{
+    content:"";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: black;
+    height: 100%;
+    z-index: -1;
+    opacity: .6;
+    
+}
+#navbar{
+display: flex;
+
+}
+#navbar ul{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#navbar ul li{
+    text-decoration: none;
+    font-size: 1.3rem;
+    margin: 13px;
+list-style: none;
+}
+
+
+#navbar ul li a{
+color:white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    margin: 13px;
+list-style: none;
+}
+
+li:nth-child(1){
+    text-decoration: underline;
+}
+#navbar img{
+    height: 67px;
+    width: 66px;
+}
+#home{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 234px;
+    font-size: 2.1rem;
+    text-align: center;
+    margin:88px 23px; */
+position:relative;
+font-size: 2.5rem;
+
+}
+
+#home::before{
+    content: "";
+    position: absolute;
+    background: url('pexels-belle-co-1000445.jpg') no-repeat center center/cover;
+    width: 100%;
+    height:100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: .4;
+
+}
+.sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-self: flex-end;
+    padding: 23px;
+    margin:2px 56px;
+
+}
+.pr{
+    margin-top: 23px;
+    text-align: center;
+    /* font-size: 1.4rem; */
+}
+.p2{
+    text-align: center;
+}
+
+.btn{
+    font-size: 1.3rem;
+    width: 80px;
+    border-radius: 12px;
+    margin-top: 45px;
+    cursor: pointer;
+    margin-bottom: 97px;
+}
+#home h1{
+    margin: 34px;
+}
+
+.plan{
+    /* background:url('./4c28e1297ec9bd119100b11633569c8b.jpg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 289px;
+    font-size: 1.4rem;
+    flex-wrap: wrap; */
+    position: relative;
+    font-size: 1.9rem;
+
+}
+.plan::before{
+    content:"";
+    position:absolute;
+    background: url('https://resize.indiatvnews.com/en/resize/newbucket/360_-/2022/05/taj-mahal-1652183243.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+
+.trip{
+    /* border: 3px solid black;
+    width: 33%px;
+    height: 387px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:3px 45px;
+    border-radius: 45px;
+    background: rgb(142, 135, 131); */
+    /* margin: 2px 25px; */
+    /* transition-property: all 3s ease-in 1s; */
+    padding: 34px;
+    display: flex;
+    flex-direction: column;
+    width:27%;
+    height: 100%;
+    /* border: 3px solid black; */
+    justify-content: center;
+    align-items: center;
+
+
+ } 
+
+#container{
+    /* border: 3px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* flex-direction: column; */
+}
+
+#b1 img{
+    width: 122px;
+    height: 167px;
+    border-radius: 23px;
+  /* margin: auto;
+    border-radius: 23px; */
+
+    /* background: url('./pexels-photo-128303-1024x682-pexels-photo-128303-1024x682-wallpaper-preview.jpg') no-repeat center center/cover; 
+opacity: .6;
+color: white;
+z-index: -1;  */
+}
+#b2 img{
+    height: 123px;
+    width: 167px;
+    border-radius: 23px;
+    /* width: 122px;
+    margin: auto; */
+
+    /* background: url('./pexels-eyüp-belen-1428626.jpg') no-repeat center center/cover;
+    z-index: -1;
+    opacity: .7;
+ */
+}
+ #b3 img{
+     height: 123px;
+     width: 167px;
+     border-radius: 23px;
+    /* width: 122px;
+    margin: auto; */
+
+    /* background: url('./pexels-ray-bilcliff-2055389.jpg') no-repeat center center/cover;
+    z-index: -1;
+    opacity: .7; */
+}
+
+.client-section{
+    position: relative;
+    
+}
+.client h1{
+    font-size: 2.4rem;
+    text-align: center;
+    /* margin:auto; */
+}
+.client-section::before{
+    content: "";
+    position: absolute;
+    background: url('https://resize.indiatvnews.com/en/resize/newbucket/360_-/2022/05/taj-mahal-1652183243.jpg') no-repeat center center/cover;
+width: 100%;
+height: 100%;
+z-index: -1;
+}
+.client{
+    /* position: absolute; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+.client-item img{
+    height: 346px;
+    border-radius: 87px;
+
+}
+.client-item{
+    padding: 32px;
+}
+
+/* for contact section */
+.contact-section{
+    position: relative;
+}
+.contact-section::before{
+    content: "";
+    position: absolute;
+    background: url('./contact-us-4193523_640.jpg') no-repeat center center/cover;
+width: 100%;
+height: 100%;
+z-index: -1;
+opacity: .8;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    padding:12px;
+}
+.contact form{
+    /* border: 2px solid black;
+    padding: 17px;
+    margin: 30px;
+    width: 40%;
+    background: #c5ccad; */
+}
+.form-group{
+    margin:9px;
+}
+input{
+    width: 100%;
+font-size:1.3rem;
+padding: 5px;
+}
+.btm{
+    font-size: 1.2rem;
+    padding: 7px;
+    border-radius: 13px;
+    cursor: pointer;
+}
+.form-group label{
+font-size: 1.7rem;
+}
